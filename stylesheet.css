@@ -2,7 +2,7 @@
 /*nav hintetgrund*/
 .nav {
   overflow: hidden;
-  background-color: #e9e9e9;
+  background-color: hsl(43, 91%, 74%);
 }
 /*nav link style*/
 .nav a {
@@ -12,17 +12,17 @@
     text-align: center;
     padding: 5% 5%;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.5rem;
   }
   /*hover effekt*/
   .nav a:hover {
-    background-color: #ddd;
+    background-color: #e2d478;
     color: black;
    
   }
   /*highlightet aktives element*/
   .nav a.active {
-    background-color: #2196F3;
+    background-color: #f36060;
     color: white;
   }
   /*Searchbar style*/
@@ -39,7 +39,7 @@
   /*font*/
   body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ddd;
+    background-color: #faf3c8;
   }
 /*Genre style*/
 .h1 {
@@ -74,9 +74,8 @@ transform: scale(1.01);
 /*footer hintergrund*/
 .footer {
   margin-top: 5%;
-  
   overflow: hidden;
-  background-color: #e9e9e9;
+  background-color: #f9d780;
 }
 /*footer links*/
 .footer a {
@@ -85,9 +84,71 @@ transform: scale(1.01);
     text-align: center;
     padding: 2% 3%;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.5rem;
 }
 .footer a:hover {
-  background-color: #ddd;
+  background-color: #e2d478;
   color: black;
 }
+/*-------------------------------------------------------------*/
+/* Film 1 bild*/
+
+
+.container img{
+
+width:300px
+}
+
+.container {
+
+margin-left: 10%;
+
+display:flex
+
+
+}
+
+.kriterien {
+  flex:1;
+}
+
+
+
+/*-----------------------------------------------------------------------*/
+.footer2 {
+  margin-top:5%;
+  overflow: hidden;
+  background-color: #f9d780;
+}
+
+.footer2 a{
+ 
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 2% 4%;
+  text-decoration: none;
+  font-size: 1.5rem;
+  
+}
+.footer2 a:hover {
+  background-color: #e2d478;
+  color: black;
+}
+
+
+
+
+
+@media(max-width:600px){
+
+  .container{
+    justify-content: center;
+    display:grid;
+
+  }
+
+
+}
+
+
