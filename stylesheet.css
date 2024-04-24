@@ -39,7 +39,7 @@
   /*font*/
   body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #faf3c8;
+    background-color: #f5edc9;
   }
 /*Genre style*/
 .h1 {
@@ -107,7 +107,11 @@ display:flex
 
 
 }
+.k1 input[type="text"]:hover{
 
+background-color: #f9d780;
+
+}
 
 /*-----------------------------------------------------------------------*/
 .footer2 {
@@ -152,8 +156,10 @@ margin-left:auto;
 margin-right:auto;
 margin-bottom:-5%;
 }
+.container2 img:hover {
 
-
+  transform: scale(1.1);
+}
 
 /*--------------------------------------------------------------------------------------*/
 @media(max-width:600px){
