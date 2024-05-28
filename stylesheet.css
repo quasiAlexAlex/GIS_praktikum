@@ -10,7 +10,7 @@
     display: block;
     color: black;
     text-align: center;
-    padding: 3% 3%;
+    padding: 3.5% 3%;
     text-decoration: none;
     font-size: 1.5rem;
   }
@@ -30,7 +30,7 @@
     float: right;
     padding: 1%;
     border: none;
-    margin-top: 2.5%;
+    margin-top: 3%;
     margin-right: 3%;
     font-size: 17px;
   }
@@ -48,6 +48,8 @@
   font-size: 170%;
   color: rgb(36, 36, 36);
 }
+
+/*-------------------------------------------------------------------------*/
 /* bildskalierung*/
 img {
  width: 70%;
@@ -64,7 +66,7 @@ img {
   color: #2c2c2c;
   padding-top: 5%;
   text-align: center;
-  font-size: 150%;
+  font-size: 1.5Rem;
   font-weight:bold;
 }
 .grid-container :hover {
@@ -95,14 +97,14 @@ transform: scale(1.01);
 
 
 .container img{
-
+margin-right: 1%;
 width:300px
 }
 
 .container {
 
 margin-left: 10%;
-
+margin-top: 2%;
 display:flex
 
 
