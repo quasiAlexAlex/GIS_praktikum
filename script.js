@@ -54,6 +54,7 @@ function zeigeScore2() {
 
 document.getElementById("range1").addEventListener("input", zeigeScore2);
 laden11();
+
 //-------------------------------------------------------------------------------------Speichern1.3
 function speichern12() {
     var slider = document.getElementById("range2").value;
@@ -80,6 +81,7 @@ function zeigeScore3() {
 
 document.getElementById("range2").addEventListener("input", zeigeScore3);
 laden12();
+
 //-------------------------------------------------------------------------------------Speichern1.4
 function speichern13() {
     var slider = document.getElementById("range3").value;
@@ -106,6 +108,7 @@ function zeigeScore4() {
 
 document.getElementById("range3").addEventListener("input", zeigeScore4);
 laden13();
+
 //-------------------------------------------------------------------------------------Speichern1.5
 function speichern14() {
     var slider = document.getElementById("range4").value;
@@ -132,6 +135,7 @@ function zeigeScore5() {
 
 document.getElementById("range4").addEventListener("input", zeigeScore5);
 laden14();
+
 //-------------------------------------------------------------------------------------Speichern1.6
 function speichern15() {
     var slider = document.getElementById("range6").value;
