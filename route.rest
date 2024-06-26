@@ -1,0 +1,26 @@
+GET http://localhost:3000/werte
+
+###
+
+
+GET https://localhost:3000/werte/15
+
+###
+
+
+
+POST https://localhost:3000/werte
+Content-Type: application/json
+
+{
+
+"kriterium":  "Handlung",
+"score": 10
+
+}
+
+
+###
+
+
+DELETE https://localhost:3000/werte

@@ -1,0 +1,178 @@
+
+/*nav hintetgrund*/
+.nav {
+  overflow: hidden;
+  background-color: hsl(43, 91%, 74%);
+}
+/*nav link style*/
+.nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 3.5% 3%;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  /*hover effekt*/
+  .nav a:hover {
+    background-color: #e2d478;
+    color: black;
+   
+  }
+  /*highlightet aktives element*/
+  .nav a.active {
+    background-color: #f36060;
+    color: white;
+  }
+  /*Searchbar style*/
+  .nav input[type=text] {
+    float: right;
+    padding: 1%;
+    border: none;
+    margin-top: 3%;
+    margin-right: 3%;
+    font-size: 17px;
+  }
+  
+  /*--------------------------------------------------------------*/
+  /*font*/
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5edc9;
+  }
+/*Genre style*/
+.h1 {
+  text-align: center;
+  top: 15%;
+  font-size: 170%;
+  color: rgb(36, 36, 36);
+}
+
+/*-------------------------------------------------------------------------*/
+/* bildskalierung*/
+img {
+ width: 70%;
+ height:auto;
+
+}
+/*grid*/
+.grid-container {
+  display: grid;
+  grid: 50% / auto auto auto;
+
+}
+.grid-container > div {
+  color: #2c2c2c;
+  padding-top: 5%;
+  text-align: center;
+  font-size: 1.5Rem;
+  font-weight:bold;
+}
+.grid-container :hover {
+transform: scale(1.01); 
+}
+/*----------------------------------------------------------------------*/
+/*footer hintergrund*/
+.footer {
+  margin-top: 5%;
+  overflow: hidden;
+  background-color: #f9d780;
+}
+/*footer links*/
+.footer a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1.5% 1%;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.footer a:hover {
+  background-color: #e2d478;
+  color: black;
+}
+/*-------------------------------------------------------------*/
+/* Film 1 bild*/
+
+
+.container img{
+margin-right: 1%;
+width:300px
+}
+
+.container {
+
+margin-left: 10%;
+margin-top: 2%;
+display:flex
+
+
+}
+.k1 input[type="text"]:hover{
+
+background-color: #f9d780;
+
+}
+
+/*-----------------------------------------------------------------------*/
+.footer2 {
+  margin-top:5%;
+  overflow: hidden;
+  background-color: #f9d780;
+}
+
+.footer2 a{
+ 
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 1.5% 1%;
+  text-decoration: none;
+  font-size: 1.5rem;
+  
+}
+.footer2 a:hover {
+  background-color: #e2d478;
+  color: black;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+.container2 a {
+
+display:block;
+text-decoration: none;
+color:#1b1b1b;
+text-align: center;
+font-size: 1.6rem;
+font-weight: bold;
+
+padding-top: 10%;
+}
+.container2 img {
+max-width: 400px;
+width:50%;
+display:block;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:-5%;
+}
+.container2 img:hover {
+
+  transform: scale(1.1);
+}
+
+/*--------------------------------------------------------------------------------------*/
+@media(max-width:600px){
+
+  .container{
+    justify-content: center;
+    display:grid;
+
+  }
+  
+
+}
+
+
